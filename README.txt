@@ -1,8 +1,8 @@
-function model takes the below function as parameters in order to
+Function model takes the below function as parameters in order to
 read hand signals showing numbers 1-5. The model applies AdamOptimization
 with l2 regularization and learning rate of 0.0001. Model runs 1500
 epochs and then prints the cost for every 100 epochs. The ultimate
-accuracy of this model is 100% for training and 87% for test.
+accuracy of this model is 100% for training and 87% for test. Cost results plotted in graph.
 
 linear function: First Layer of NN
 sigmoid: Second Layer of NN
