@@ -327,7 +327,7 @@ with tf.Session() as sess:
 
 
 def model(X_train, Y_train, X_test, Y_test, learning_rate = 0.0001,
-          num_epochs = 1500, minibatch_size = 32, print_cost = True):
+          num_epochs = 700, minibatch_size = 64, print_cost = True):
     """
     Implements a three-layer tensorflow neural network: LINEAR->RELU->LINEAR->RELU->LINEAR->SOFTMAX.
     

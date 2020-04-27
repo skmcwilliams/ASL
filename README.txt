@@ -4,6 +4,12 @@ with l2 regularization and learning rate of 0.0001. Model runs 1500
 epochs and then prints the cost for every 100 epochs. The ultimate
 accuracy of this model is 100% for training and 87% for test. Cost results plotted in graph.
 
+Tuned parameters to the following
+l2 = 0.0001 (originally not applied) # higher number meant poor fitting
+learning rate = 0.0001 # higher number lead to overfitting
+num_epochs = 700 (originally 1500) # higher than 700 resulted in 100% train accuracy, but increased variance
+minibatch_size = 64 (originally 32) # larger minibatch size meant quicker traning, reduced epochs to limit overfitting
+
 linear function: First Layer of NN
 sigmoid: Second Layer of NN
 cost: compute performance
